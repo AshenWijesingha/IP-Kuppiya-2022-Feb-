@@ -5,11 +5,35 @@
 
 int main ( void )
 {
+
+ float num[3][4];
+
+/*
+
+
+
+
+*/
   
-char x[ ]= "Happy Birthday to You";
-char y[ SIZE1];
-strcpy( y , x );
-printf("The string in array y is : %s\n", y);
+  // Using nested loop to store values in a 2d array
+  for (int i = 0; i < 3; ++i)
+  {
+    for (int j = 0; j < 4; ++j)
+    {
+      printf("Array Index [%d, %d] : ", i + 1, j + 1);
+      scanf("%f", &num[i][j]);
+    }
+  }
+
+  // Using nested loop to display vlues of a 2d array
+  for (int i = 0; i < 2; ++i)
+  {
+    for (int j = 0; j < 3; ++j)
+    {
+      printf(" Value of Array Index [%d, %d] : %f", i + 1, j + 1, num[i][j]);
+    }
+  }
+
   
 return 0;
   
