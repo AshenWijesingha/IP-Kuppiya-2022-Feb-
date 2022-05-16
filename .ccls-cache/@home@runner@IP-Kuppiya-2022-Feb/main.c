@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-  printf("Hello World\n");
+
+  //Functions
+
+  
+
+
+  
   return 0;
 }
