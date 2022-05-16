@@ -13,15 +13,15 @@ int main(void) {
 
   gradeForMarks = grade(marks);
 
-  if(gradeForMarks == 'X'){
-      assert(marks < 0);
-      assert(marks > -1);
+    if(gradeForMarks == 'X'){
+        assert(marks < 0);
+        assert(marks > -1);
     }
     else if(gradeForMarks == 'F'){
-     assert(marks < 40);
+        assert(marks < 40);
     }
     else if(gradeForMarks == 'C'){
-      assert(marks < 60);
+        assert(marks < 60);
     }
     else if(gradeForMarks == 'B'){
       assert(marks < 80);
