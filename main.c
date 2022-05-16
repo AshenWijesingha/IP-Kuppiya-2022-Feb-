@@ -17,7 +17,10 @@ int main(void){
         val = 1; 
       }
     }
-/*  while( choice != -1 )
+  
+/* 
+
+while( choice != -1 )
       {
         if( counter > 10 )
 
@@ -26,31 +29,37 @@ int main(void){
           choice = -1;
         
       }
+
+*/
+
+//While Loop
   
-    // while (val == 1){ //check for the count  
+    while (val == 1){ //check for the count  
 
-    // printf("%d \n", counter);
-    // ++counter;
-    // choice = 1;
+    printf("%d \n", counter);
+    ++counter;
+    choice = 1;
 
-    // if(counter <= 10){
-    //   if(choice == -1){
-    //     val = 1; 
-    //   }
-    // }  
+    if(counter <= 10){
+      if(choice == -1){
+        val = 1; 
+      }
+    }  
       
-    // }
+    }
 
-    // printf("End of while loop");
+    printf("End of while loop");
+
+//Do-While
   
-    // do{
+    do{
       
-    //     printf("%d \n", counter);
-    //     ++counter;
+        printf("%d \n", counter);
+        ++counter;
       
-    //   } while (counter <= 10);
+      } while (counter <= 10);
 
-    // printf("End of Do-while loop");
+    printf("End of Do-while loop");
   
   return 0;
 } 
